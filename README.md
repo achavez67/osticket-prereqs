@@ -20,10 +20,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - IIS
-- PHP
-- Item 3
-- Item 4
-- Item 5
+- PHP Manager
+- URL Rewrite for IIS
+- C++ Redistributable x86
+- MySql
+- HeidiSQL
 
 <h2>Installation Steps</h2>
 
