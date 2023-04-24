@@ -37,7 +37,7 @@ Before we install osTicket, we must install and enable IIS in windows with CGI. 
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/l6yf6gH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rkHcmpx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Before we install osTicket, we must .
