@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-For this project, I created a virtual machine via Microsoft Azure using Windows 10 as the operating system. There are a handfull of requirements to install in order for osTicket to function properly.
+For this project, I created a virtual machine via Microsoft Azure using Windows 10 as the operating system. There are a handful of requirements to install in order for osTicket to function properly.
 
 <p>
 <img src="https://i.imgur.com/mdu44fs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -59,7 +59,7 @@ When doing anything with IIS, it is recommended that we click on restart so that
 <img src="https://i.imgur.com/oH3HGIg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once we install osTicket, we will have and osTicket zip folder in the downloads. We will click on this folder and see that there is an "upload" folder. We will drag this "upload" folder into C:\inetpub\wwwroot. Then we will rename the "upload" folder to "osTicket". 
+Once we install osTicket, we will have an osTicket zip folder in the downloads. We will click on this folder and see that there is an "upload" folder. We will drag this "upload" folder into C:\inetpub\wwwroot. Then we will rename the "upload" folder to "osTicket". 
 </p>
 <br />
 
@@ -84,7 +84,7 @@ To enable these feautres, we will go back to IIS and go to [our server]->Sites->
 <img src="https://i.imgur.com/gp4Ra40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We are going to locate C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename it to C:\inetpub\wwwroot\osTicket\include\ost-config.php. We then will assign permissions to this file, First we will siable inheritence by right clicking on the file->properties->security->advanced->disable inheritance->remove all inherited permissions from this object. Then we will add permissions by going to select principle and type "everyone" under "Enter the object name to select". Check names, and then check the box that says "Full Control" click on "apply" and then "ok".
+We are going to locate C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename it to C:\inetpub\wwwroot\osTicket\include\ost-config.php. We then will assign permissions to this file, First we will disable inheritence by right clicking on the file->properties->security->advanced->disable inheritance->remove all inherited permissions from this object. Then we will add permissions by going to select principle and type "everyone" under "Enter the object name to select". Check names, and then check the box that says "Full Control" click on "apply" and then "ok".
 
 </p>
 <br />
