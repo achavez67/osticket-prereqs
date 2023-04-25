@@ -28,6 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+For this project, I created a virtual machine via Microsoft Azure using Windows 10 as the operating system. There are a handfull of requirements to install in order for osTicket to function properly.
+
 <p>
 <img src="https://i.imgur.com/mdu44fs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -40,15 +42,24 @@ Before we install osTicket, we must install and enable IIS in windows with CGI. 
 <img src="https://i.imgur.com/rkHcmpx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Before we install osTicket, we must .
+We must download the files in the image above and listed on the "prerequisites". We follow the instructions of each file to install the programs succesfully.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nuzTgBv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After installing MySQL, we will open IIS as an admin->Register PHP from within IIS. 
+When doing anything with IIS, it is recommended that we click on restart so that we can see the changes.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/oH3HGIg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Once we install osTicket, we will have and osTicket zip folder in the downloads. We will click on this folder and see that there is an "upload" folder. We will drag this "upload" folder into C:\inetpub\wwwroot. Then we will rename the "upload" folder to "osTicket". 
 </p>
 <br />
 
